@@ -9,8 +9,6 @@ https://prismic-io.s3.amazonaws.com/docker%2Fa2d454ff-b2eb-4e9f-af0e-533759119ee
 
 Simulação: https://djitz.com/certification/docker-certified-associate-dca-certification-test-resources/
 
-Repositório com links organizados para os estudo: https://github.com/Evalle/DCA
-
 UCP: https://docs.docker.com/ee/ucp/
 
 
