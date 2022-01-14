@@ -21,7 +21,7 @@ UCP: https://docs.docker.com/ee/ucp/
 - *Só da pra fazer em pc _Windows_ ou _Mac_, infelizmente a plataforma não é compatível com o melhor SO do mundo: _Linux_*
 - A prova é em inglês
 - O treinamento da LinuxTips não cobriu UCP, DTR, Docker EE entre outros, portanto, estudar isso por fora
-- A prova do Docker não tem Retake, logo estude pra passar de primeira
+- A prova do Docker não tem Retake, logo estude pra passar de primeira.
 
 ## Iniciando com Docker
 ### Instalação do Docker
