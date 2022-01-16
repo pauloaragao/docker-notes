@@ -120,7 +120,17 @@ docker volume prune
 ``` sh
 docker container run -ti --mount type=volume,src=MEUVOLUME,dst=/meuVolume IMAGENAME
 ```
+* (Antiga Sintaxe) Montar o volume no container
+``` sh
+docker container create -v MEUVOLUME:/meuVolume --name NOMEDOCONTAINER IMAGENAME
+```
 
+#### Backup Volume
+Montando um volume backup para um volume já criado, comando de criação. 
+
+```
+docker container run -ti --mount type=volume,src=MEUVOLUME,dst=/meuVolume --mount type=bind,src=/MEUVOLUME_BACKUP,dst=/meuVolume_backup debian tar -cvf /meuVolume_backup/bkp-banco.tar /meuVolume
+```
 ## Dockerfile
 ### Exemplo de Dockerfile
 ``` yaml
